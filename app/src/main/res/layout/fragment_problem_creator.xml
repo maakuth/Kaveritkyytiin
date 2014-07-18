@@ -11,22 +11,31 @@
     <TextView
         android:text="@string/instruction"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/instructiontext"/>
 
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructiontext"
         android:id="@+id/friendlist"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_contact"/>
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/friendlist"
         android:id="@+id/destination"
-        android:hint="@string/destination"/>
+        android:hint="@string/destination" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/friendlist"
         android:id="@+id/submit"
-        android:text="@string/submit"/>
+        android:text="@string/submit" />
 </RelativeLayout>

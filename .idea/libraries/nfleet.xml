@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nfleet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/nfleet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
